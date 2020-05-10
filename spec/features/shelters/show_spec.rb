@@ -17,8 +17,8 @@ RSpec.describe "As a visitor" do
                                 zip: "85748"
                               )
 
-    visit '/shelters/#{shelter_1.id}'
-    save_and_open_page
+    visit "/shelters/#{shelter_1.id}"
+
     expect(page).to have_content(shelter_1.name)
     expect(page).to have_content(shelter_1.address)
     expect(page).to have_content(shelter_1.city)

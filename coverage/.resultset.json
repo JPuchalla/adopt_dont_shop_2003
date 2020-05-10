@@ -212,9 +212,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        null,
+        1,
+        1,
         0,
         0,
         0,
@@ -239,6 +239,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/jpuchalla/Turing/module2/projects/adopt_dont_shop_2003/app/controllers/application_controller.rb": [
@@ -247,6 +251,6 @@
         null
       ]
     },
-    "timestamp": 1588738502
+    "timestamp": 1589149654
   }
 }
